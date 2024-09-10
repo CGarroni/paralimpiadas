@@ -164,3 +164,47 @@ footer a {
   color: #fff;
   text-decoration: none;
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    letter-spacing: .2rem;
+  }
+  section .input-search {
+    width: 25rem;
+    padding: .8rem;
+  }
+  .result-item h2 {
+    font-size: 1.3rem;
+  }
+  .results-search {
+    width: 40rem;
+    height: 40vh;
+  }
+  .result-item h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+  }
+  section .input-search {
+    width: 17rem;
+  }
+  .btn-section {
+    padding: .6rem 1rem;
+    font-size: .9rem;
+  }
+  .results-search {
+    width: 90%;
+    height: 50vh;
+  }
+  .result-item h2 {
+    font-size: 1.1rem;
+  }
+  footer {
+    font-size: .9rem;
+  }
+}
