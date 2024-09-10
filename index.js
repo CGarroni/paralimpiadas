@@ -40,7 +40,7 @@ function search() {
   }
 
   if (!results){
-    results = <p>"Nada foi encontrado"</p>
+    results = "<p>Nada foi encontrado</p>"
   }
 
   // Atribui o HTML gerado à seção de resultados
