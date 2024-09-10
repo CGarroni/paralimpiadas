@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Paralimpíadas</title>
+  </head>
+  <body class="background-img">
+    <header>
+      <img
+        class="img-logo"
+        src="assets/Paris2024_paralympicsgame.png"
+        alt="Logo da Imagem"
+      />
+      <nav>
+        <ul class="nav-header" id="nav-list">
+          <li><a href="/">Home</a></li>
+          <li><a href="#input-search">Pesquisa</a></li>
+          <li>
+            <a href="mailto:chicogarroni@gmail.com" target="_blank"
+              >Contate-me</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="container">
+      <section>
+        <h1>Maiores Medalhistas do Brasil em Jogos Paralímpicos</h1>
+        <form class="search-box">
+          <input
+            type="text" class="input-search"
+            placeholder="Digite o nome e do atleta..."
+            id="input-search"
+          />
+          <button type="submit" class="btn-section" id="btn-search" onclick="search()">Pesquisar</button>
+        </form>
+      </section>
+
+      <section id="results-search" class="results-search">
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2024 Atletas do Brasil nas Paralimpíadas. Todos direitos
+        reservados
+      </p>
+      <p>
+        Entre em contato pelo E-mail:
+        <a href="mailto:chicogarroni@gmail.com" target="_blank"
+          >chicogarroni@gmail.com</a
+        >
+      </p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
